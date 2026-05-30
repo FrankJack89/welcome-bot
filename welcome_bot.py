@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
-import traceback import os
+import traceback
+import os
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 WELCOME_CHANNEL_ID = 1084599010796519474
